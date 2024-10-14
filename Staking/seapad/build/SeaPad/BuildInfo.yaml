@@ -1,0 +1,36 @@
+---
+compiled_package_info:
+  package_name: SeaPad
+  address_alias_instantiation:
+    alice: "0000000000000000000000000000000000000000000000000000000000000015"
+    bob: "0000000000000000000000000000000000000000000000000000000000000016"
+    emergency: "0000000000000000000000000000000000000000000000000000000000000014"
+    seapad: "0000000000000000000000000000000000000000000000000000000000000000"
+    stake_emergency_admin: "0000000000000000000000000000000000000000000000000000000000000000"
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+    treasury: "0000000000000000000000000000000000000000000000000000000000000013"
+    treasury_admin: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: C2942B14ADA91A730D3986F518A7DE3E8E5F649C611F2AD50B06980D209DAFDB
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: ".\\Move.lock"
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    json_errors: false
+    additional_named_addresses: {}
+    lint_flag:
+      no_lint: false
+      lint: false
+dependencies:
+  - MoveStdlib
+  - Sui
